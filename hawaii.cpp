@@ -1,3 +1,6 @@
+/////////// LeeHanna ///////////
+
+
 #include <vtkSmartPointer.h>
 #include <vtkPolyDataMapper.h>
 #include <vtkStructuredGrid.h>
@@ -37,10 +40,10 @@ int main (int, char *[])
 	  double x, y, z;
 	vtkSmartPointer<vtkStructuredGridReader> reader =
     vtkSmartPointer<vtkStructuredGridReader>::New();
-  reader->SetFileName("C:/Users/hannaLee/Desktop/ÀÌÇÑ³ª/VTK_°úÁ¦/glider_ÇÏ³ªÂ¥¸®/density.vtk");
+  reader->SetFileName("C:/Users/hannaLee/Desktop/ì´í•œë‚˜/VTK_ê³¼ì œ/glider_í•˜ë‚˜ì§œë¦¬/density.vtk");
  
   reader->Update();
-  //ÆÄÀÏÀ» ÀĞ¾î¿Í¼­
+  //íŒŒì¼ì„ ì½ì–´ì™€ì„œ
  /*
    float centerPos[3];
   reader->GetOutput()->GetCenter(centerPos);
@@ -54,7 +57,7 @@ int main (int, char *[])
     }
  
 
-			  std::string filename = "C:/Users/hannaLee/Desktop/ÀÌÇÑ³ª/VTK_°úÁ¦/glider_ÇÏ³ªÂ¥¸®/density.vtk";
+			  std::string filename = "C:/Users/hannaLee/Desktop/ì´í•œë‚˜/VTK_ê³¼ì œ/glider_í•˜ë‚˜ì§œë¦¬/density.vtk";
 			  std::ifstream filestream(filename.c_str());
  
  
